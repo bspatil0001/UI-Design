@@ -1,0 +1,45 @@
+body {
+  font-family: $font-stack;
+  color: $body-color;
+}
+
+ul {
+  padding: 0;
+}
+
+.blue-label {}
+
+a{
+  color: $link-color;
+  text-decoration: none;
+}
+
+img {
+  width: 100%;
+  height: auto;
+}
+
+.idea{
+  background-color: #55a8fd;
+}
+
+.pregress{
+  background-color: #ffbe6a;
+}
+.review{
+  background-color: #8f7ee5;
+}
+.approved{
+  background-color: #4dd87a;
+}
+
+.playing{
+  border-left: 2px solid #55a8fd !important;
+}
+
+.not-playing{
+  border-left: 2px solid #8f7ee5 !important;
+}
+
+.left{float:left;}
+.right{float:right;}

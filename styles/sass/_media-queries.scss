@@ -1,0 +1,32 @@
+$breakpoint-tablet1: 1200px;
+$breakpoint-tablet2: 767px;
+@media (max-width: $breakpoint-tablet1) {
+  body {
+    .container{
+      max-width: 1000px;
+      margin: 0 auto;
+    }
+    .content {
+      .labels {
+        & > div {
+          width: 45%;
+        }
+      }
+    }
+  }
+}
+@media (max-width: $breakpoint-tablet2) {
+  body {
+    .container{
+      max-width: 1000px;
+      margin: 0 auto;
+    }
+    .content {
+      .labels {
+        & > div {
+          width: 100%;
+        }
+      }
+    }
+  }
+}
